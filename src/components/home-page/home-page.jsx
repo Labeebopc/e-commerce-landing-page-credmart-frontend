@@ -1,6 +1,6 @@
 import React from "react";
 import Banner from "../banner/banner";
-import ContactUs from "../contactUs/contactUs";
+import Footer from "../footer/footer";
 import ProductHeading from "../product-headings/product-heading";
 import ProductPage from "../product-page/product-page";
 
@@ -12,7 +12,7 @@ const HomePage = () => {
             <ProductPage heading="Watch" />
             <ProductPage heading="Backpacks" />
             <ProductPage heading="Shoes" />
-            <ContactUs />
+            <Footer />
         </>
     )
 }

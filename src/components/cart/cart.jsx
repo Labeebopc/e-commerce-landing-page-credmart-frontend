@@ -13,7 +13,7 @@ const Cart = () => {
                 }
 
                 else {
-                    setCount(1)
+                    setCount(0)
                 }
                 break;
 

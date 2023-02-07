@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d16f959d.css",
+    "main.js": "/static/js/main.49109e89.js",
+    "static/media/bag.png": "/static/media/bag.e84e85d6ca3a8868e9b9.png",
+    "static/media/watch.png": "/static/media/watch.f9691504fb687e6ef29b.png",
+    "static/media/jbl.png": "/static/media/jbl.5761adedb0af88b4522b.png",
+    "index.html": "/index.html",
+    "main.d16f959d.css.map": "/static/css/main.d16f959d.css.map",
+    "main.49109e89.js.map": "/static/js/main.49109e89.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d16f959d.css",
+    "static/js/main.49109e89.js"
+  ]
+}

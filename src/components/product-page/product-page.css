@@ -1,0 +1,15 @@
+.product-page-container {
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px;
+  }
+
+  .product-page-container > h4{
+    font-weight: bold;
+    font-size: 35px;
+  }
+
+  .products{
+    display: flex;
+  }

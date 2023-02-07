@@ -1,0 +1,19 @@
+{
+    "heading": [
+      {
+        "name": "Watch",
+        "image": "./images/watch.png",
+        "background":"rgb(243, 243, 134)"
+      },
+      {
+        "name": "Bag",
+        "image": "../../images/bag.png",
+        "background":"rgb(245, 48, 113)"
+      },
+      {
+        "name": "Shoes",
+        "image": "../../images/shoe.png",
+        "background":"rgb(101, 101, 241)"
+      }
+    ]
+  }

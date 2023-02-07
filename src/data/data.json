@@ -1,0 +1,64 @@
+{
+    "Watch": [
+      {
+        "name": "Timex",
+        "productImage": "./images/watch.png",
+        "description": "A watch is a portable timepiece intended to be carried or used by a person.",
+        "price": "$5599"
+      },
+      {
+        "name": "Tissot",
+        "productImage": "",
+        "description": "A watch is a portable timepiece intended to be carried or used by a person.",
+        "price": "$2799"
+      },
+      {
+        "name": "Rolex",
+        "productImage": "",
+        "description": "A watch is a portable timepiece intended to be carried.",
+        "price": "$1899"
+      }
+    ],
+
+    "Bag": [
+      {
+        "name": "Gucci",
+        "productImage": "",
+        "description": "A flexible container with an opening at the top, used for carrying things.",
+        "price": "$199"
+      },
+      {
+        "name": "Dolce & Gabbana",
+        "productImage": "",
+        "description": "A flexible container with an opening at the top, used for carrying things.",
+        "price": "$699"
+      },
+      {
+        "name": "Louis Vuitton",
+        "productImage": "",
+        "description": "A flexible container with an opening at the top, used for carrying things.",
+        "price": "$999"
+      }
+    ],
+
+    "Shoes": [
+      {
+        "name": "Nike",
+        "productImage": "",
+        "description": "A covering for the foot, typically made of leather, having a sturdy sole and not reaching above the ankle",
+        "price": "$99"
+      },
+      {
+        "name": "Adidas",
+        "productImage": "",
+        "description": "A covering for the foot, typically made of leather.",
+        "price": "$199"
+      },
+      {
+        "name": "Puma",
+        "productImage": "",
+        "description": "A covering for the foot, typically made of leather, having a sturdy sole and not reaching above the ankle",
+        "price": "$59"
+      }
+    ]
+  }

@@ -1,0 +1,14 @@
+.navbar{
+    background-color: rgb(205, 208, 211);
+    padding: 15px;
+}
+
+.cart-icon{
+    margin-left: auto;
+    font-size: 30px;
+}
+
+.nav-link{
+    font-size: 25px;
+    font-weight: 700;
+}

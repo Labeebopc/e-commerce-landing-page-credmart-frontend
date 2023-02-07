@@ -1,0 +1,47 @@
+.card-container {
+  background-color: white;
+  box-shadow: 2px 2px 2px 2px #e7e2e2;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(233, 230, 230);
+}
+
+.card-image img {
+  object-fit: cover;
+  width: 100%;
+}
+
+.card-description {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-description-name {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.card-description-para {
+  font-size: 1em;
+}
+
+.card-description-price {
+  font-weight: bold;
+  color: rgb(224, 91, 91);
+  font-size: 1.5em;
+}
+
+.card-description button {
+  width: 100px;
+  padding: 5px;
+  border-radius: 10px;
+  align-self: center;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+  background-color: rgb(247, 107, 130);
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}

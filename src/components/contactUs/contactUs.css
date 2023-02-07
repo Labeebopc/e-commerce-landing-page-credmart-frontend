@@ -1,0 +1,39 @@
+.contactUs-container {
+    width: 95%;
+    margin: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+    /* border: 1px solid grey; */
+    padding: 10px;
+    background-color: rgb(240, 215, 219);
+}
+
+.contactUs-container-heading {
+    font-weight: bold;
+    font-size: 1em;
+    /* color: rgb(51, 216, 147); */
+}
+
+.contactUs-container span {
+    font-size: 15px;
+    color: grey;
+    margin-right: 10px;
+}
+
+.contactUs-container input {
+    padding: 3px 10px;
+    border: none;
+}
+
+.contactUs-container button {
+    width: 80px;
+    padding: 5px;
+    border-radius: 10px;
+    align-self: center;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(247, 107, 130);
+    margin-bottom: 5px;
+    margin-left: 10px;
+}

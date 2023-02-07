@@ -15,16 +15,16 @@ const Header = () => {
                 <section className="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul className="navbar-nav">
                         <li className="nav-item">
-                            <Link className="nav-link" to="#">Home</Link>
+                            <Link className="nav-link" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="#">Shoes</Link>
+                            <Link className="nav-link" to="/">Shoes</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="#">Backpacks</Link>
+                            <Link className="nav-link" to="/">Backpacks</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link" to="#">Contact</Link>
+                            <Link className="nav-link" to="/">Contact</Link>
                         </li>
 
                     </ul>

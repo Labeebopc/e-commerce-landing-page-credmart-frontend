@@ -30,7 +30,7 @@ const Header = () => {
                     </ul>
                 </section>
                 <article className="cart-icon">
-                    <i className="fa-solid fa-cart-shopping"></i>
+                    <Link to="/cart"><i className="fa-solid fa-cart-shopping"></i></Link>
                     </article>
             </nav>
         </>

@@ -8,6 +8,12 @@
     font-size: 30px;
 }
 
+.cart-icon i{
+    cursor: pointer;
+    color: black;
+    font-size: 30px;
+}
+
 .nav-link{
     font-size: 25px;
     font-weight: 700;

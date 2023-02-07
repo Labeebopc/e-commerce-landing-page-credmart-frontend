@@ -1,0 +1,30 @@
+.cart-container{
+        width: 95%;
+        margin: auto;
+        border-radius: 10px;
+        margin-top: 10px;
+        /* border: 1px solid grey; */
+        padding: 10px;
+        background-color: rgb(240, 215, 219);
+}
+.place-order-btn{
+    width:100px ;
+    padding: 5px;
+    border-radius: 10px;
+    align-self: center;
+    text-align: center;
+    border: none;
+    cursor: pointer;
+    background-color: rgb(247, 107, 130);
+    margin-left: 77%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.quantity-btn{
+    width: 25px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(236, 148, 148);
+}

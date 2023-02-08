@@ -1,41 +1,21 @@
 {
-    "Watch": [
-      {
-        "name": "Timex",
-        "productImage": "./images/watch.png",
-        "description": "A watch is a portable timepiece intended to be carried or used by a person.",
-        "price": "$5599"
-      },
-      {
-        "name": "Tissot",
-        "productImage": "",
-        "description": "A watch is a portable timepiece intended to be carried or used by a person.",
-        "price": "$2799"
-      },
-      {
-        "name": "Rolex",
-        "productImage": "",
-        "description": "A watch is a portable timepiece intended to be carried.",
-        "price": "$1899"
-      }
-    ],
 
     "Bag": [
       {
-        "name": "Gucci",
-        "productImage": "",
+        "name": "Reebok Dark Men's Bag",
+        "productImage": "images/reebokBag.png",
         "description": "A flexible container with an opening at the top, used for carrying things.",
         "price": "$199"
       },
       {
         "name": "Dolce & Gabbana",
-        "productImage": "",
+        "productImage": "images/dcBag.png",
         "description": "A flexible container with an opening at the top, used for carrying things.",
         "price": "$699"
       },
       {
         "name": "Louis Vuitton",
-        "productImage": "",
+        "productImage": "images/lvBag.png",
         "description": "A flexible container with an opening at the top, used for carrying things.",
         "price": "$999"
       }
@@ -44,19 +24,20 @@
     "Shoes": [
       {
         "name": "Nike",
-        "productImage": "",
+        "productImage": "images/shoe.png",
         "description": "A covering for the foot, typically made of leather, having a sturdy sole and not reaching above the ankle",
         "price": "$99"
       },
       {
         "name": "Adidas",
-        "productImage": "",
+        "productImage": "images/adidasShoe.png",
         "description": "A covering for the foot, typically made of leather.",
         "price": "$199"
       },
+      
       {
         "name": "Puma",
-        "productImage": "",
+        "productImage": "images/pumaShoe.png",
         "description": "A covering for the foot, typically made of leather, having a sturdy sole and not reaching above the ankle",
         "price": "$59"
       }

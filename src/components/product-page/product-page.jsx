@@ -13,9 +13,10 @@ const ProductPage = (props) => {
                 <h4>{props.heading}</h4>
 
                 <section className="products">
-                    {props.heading === "Watch" &&
 
-                        products.Watch.map((item, index) => {
+                    {props.heading === "Shoes" &&
+
+                        products.Shoes.map((item, index) => {
                             return (
                                 <ProductCard item={item} key={index} />
                             )
@@ -31,14 +32,6 @@ const ProductPage = (props) => {
                         })
                     }
 
-                    {props.heading === "Shoes" &&
-
-                        products.Shoes.map((item, index) => {
-                            return (
-                                <ProductCard item={item} key={index} />
-                            )
-                        })
-                    }
                 </section>
             </section>
         </>

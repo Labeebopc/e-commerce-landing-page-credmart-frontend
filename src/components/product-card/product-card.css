@@ -1,15 +1,21 @@
-.card-container {
+
+.card-container{
   background-color: white;
   box-shadow: 2px 2px 2px 2px #e7e2e2;
-  border-radius: 10px;
   text-align: center;
   padding: 10px;
-  border: 1px solid rgb(233, 230, 230);
+  /* width: 18em; */
+  
+}
+.card-image{
+  width: 50%;
+  margin: auto;
 }
 
 .card-image img {
   object-fit: cover;
   width: 100%;
+  
 }
 
 .card-description {
@@ -18,7 +24,7 @@
 }
 
 .card-description-name {
-  font-size: 1.5em;
+  font-size: 1em;
   font-weight: bold;
 }
 

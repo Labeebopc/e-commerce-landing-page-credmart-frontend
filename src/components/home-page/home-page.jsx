@@ -9,9 +9,8 @@ const HomePage = () => {
         <>
             <Banner />
             <ProductHeading />
-            <ProductPage heading="Watch" />
-            <ProductPage heading="Backpacks" />
             <ProductPage heading="Shoes" />
+            <ProductPage heading="Backpacks" />  
             <Footer />
         </>
     )

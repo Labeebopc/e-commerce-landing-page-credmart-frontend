@@ -7,7 +7,8 @@ const ProductCard = ({item}) => {
         <>
             <section className="card-container"> 
                     <section className="card-image">
-                        <img src={require('../../images/bag.png')} alt="product" />
+                        <img src={item.productImage} alt="product" />
+                        {/* <img src={require(""+ item.image)} alt="product" /> */}
                     </section>
 
                     <section className="card-description">

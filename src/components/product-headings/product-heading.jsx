@@ -1,21 +1,21 @@
 import React from "react";
 //import { Link } from 'react-router-dom'
-import mainHeading from '../../data/heading.json'
+import heading from '../../data/heading.json'
 import './product-heading.css'
 
 const ProductHeading = () => {
-
+ console.log(heading.heading[0].imageUrl)
     return (
         <>
             <section className="product-heading-container">
                 {
-                    mainHeading.heading.map((item, index) => {
+                    heading.heading.map((item, index) => {
                         return (
                             <section key={index} className="product-heading" style={{backgroundColor:item.background}}>
                                 <span>{item.name}</span>
-                                {/* <img src={item.image} alt={item.name} /> */}
-                                {/* <img src={require(""+ item.image)} alt={item.name} /> */}
-                                <img src={require('../../images/watch.png')} alt={item.name} />
+                                <img src={item.imageUrl} alt={item.name} />
+                                {/* <img src={require(""+ item.imageUrl)} alt={item.name} /> */}
+                                {/* <img src={require('../../images/watch.png')} alt={item.name} /> */}
                             </section>
                         )
                     })

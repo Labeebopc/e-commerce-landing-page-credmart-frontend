@@ -11,12 +11,9 @@
     width:100px ;
     padding: 5px;
     border-radius: 10px;
-    align-self: center;
-    text-align: center;
     border: none;
     cursor: pointer;
     background-color: rgb(247, 107, 130);
-    margin-left: 77%;
     margin-top: 20px;
     margin-bottom: 20px;
 }

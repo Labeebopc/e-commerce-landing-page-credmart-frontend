@@ -6,7 +6,7 @@ const Header = () => {
     return (
         <>
             <nav className="navbar navbar-expand-lg navbar-light">
-                
+
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
@@ -31,7 +31,7 @@ const Header = () => {
                 </section>
                 <article className="cart-icon">
                     <Link to="/cart"><i className="fa-solid fa-cart-shopping"></i></Link>
-                    </article>
+                </article>
             </nav>
         </>
     )

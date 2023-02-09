@@ -1,16 +1,19 @@
 {
     "heading": [
       {
+        "id": 1,
         "name": "Watch",
         "imageUrl": "../../images/watch.png",
         "background":"rgb(243, 243, 134)"
       },
       {
+        "id": 2,
         "name": "Bag",
         "imageUrl": "../../images/bag.png",
         "background":"rgb(245, 48, 113)"
       },
       {
+        "id": 3,
         "name": "Shoes",
         "imageUrl": "../../images/shoe.png",
         "background":"rgb(101, 101, 241)"

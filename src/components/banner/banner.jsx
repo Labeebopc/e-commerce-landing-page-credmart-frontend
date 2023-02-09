@@ -3,6 +3,11 @@ import React from "react";
 import './banner.css'
 
 const Banner = () => {
+
+    const handleBannerBtn = () => {
+        alert("Offer will be updated. Kindly Buy below listed Items")
+    }
+
     return (
         <>
             <section className="banner-container">
@@ -12,7 +17,7 @@ const Banner = () => {
 
                     <div className="banner-description-price">
                         <span> $600</span>
-                        <button>Buy Now</button>
+                        <button onClick={handleBannerBtn}>Buy Now</button>
                     </div>
                 </article>
 

@@ -25,3 +25,8 @@
     border-radius: 10px;
     background-color: rgb(236, 148, 148);
 }
+
+.delete-item-btn{
+    font-weight: bold;
+    cursor: pointer;
+}

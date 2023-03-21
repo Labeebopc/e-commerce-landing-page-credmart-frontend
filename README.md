@@ -1,6 +1,8 @@
 # E-Commerce Landing Page
   Deployed Link: https://ecommerce-landing-page-labeeb.onrender.com/
 
+  Backend Repo: https://github.com/Labeebopc/e-commerce-landing-page-credmart-backend
+
  # Steps to run the Application
        1. Clone the repo.
        2. Make sure that you have installed node.

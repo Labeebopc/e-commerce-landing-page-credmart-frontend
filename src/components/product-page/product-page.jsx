@@ -15,7 +15,7 @@ const ProductPage = (props) => {
 
         if (props.heading === "Shoes") {
             const getDatafromBackend = async () => {
-                let result = await axios.get("http://localhost:5000/api/v1/products")
+                let result = await axios.get("https://ecommerce-landing-page-credmat-backend.onrender.com/api/v1/products")
                 setAllProducts(result.data.Shoes)
                 //console.log(result);
             }

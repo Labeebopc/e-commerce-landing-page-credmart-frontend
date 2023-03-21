@@ -1,29 +1,43 @@
 import React, { useEffect, useState } from "react";
 //import { Link } from 'react-router-dom'
 import axios from 'axios'
-import products from '../../data/data.json'
+//import products from '../../data/data.json'
 import ProductCard from "../product-card/product-card";
 
 import './product-page.css'
 
 const ProductPage = (props) => {
 
+    // const [data, setData] = useState({})
     const [allProducts, setAllProducts] = useState([])
 
     useEffect(() => {
 
-        const getDatafromBackend = async () => {
-            let result = await axios.get("http://localhost:5000/api/v1/products")
-            setAllProducts(result.data)
-            //console.log(result);
+        if (props.heading === "Shoes") {
+            const getDatafromBackend = async () => {
+                let result = await axios.get("http://localhost:5000/api/v1/products")
+                setAllProducts(result.data.Shoes)
+                //console.log(result);
+            }
+
+            getDatafromBackend()
         }
 
-        getDatafromBackend()
+        else {
+            const getDatafromBackend = async () => {
+                let result = await axios.get("https://ecommerce-landing-page-credmat-backend.onrender.com/api/v1/products")
+                setAllProducts(result.data.Bag)
+                //console.log(result);
+            }
 
-    }, [])
+            getDatafromBackend()
+        }
+
+    }, [props.heading])
 
     //console.log(Object.values(products))
-    console.log(allProducts);
+    // console.log(allProducts, "backend");
+    // console.log(products, "json");
     return (
         <>
             <section className="product-page-container">
@@ -31,20 +45,31 @@ const ProductPage = (props) => {
 
                 <section className="products">
 
-                    {props.heading === "Shoes" &&
+                    {/* {allProducts.length > 0 && props.heading === "Shoes" &&
 
-                        products.Shoes.map((item, index) => {
+                        allProducts.map(item => {
+                            console.log(item, "inside");
                             return (
-                                <ProductCard item={item} key={index} />
+                                <ProductCard item={item} key={item.id} />
                             )
                         })
                     }
 
-                    {props.heading === "Backpacks" &&
+                    {allProducts.length > 0 && props.heading === "Backpacks" &&
 
-                        products.Bag.map((item, index) => {
+                        allProducts.map(item => {
                             return (
-                                <ProductCard item={item} key={index} />
+                                <ProductCard item={item} key={item.id} />
+                            )
+                        })
+                    } */}
+
+                    {allProducts.length > 0 &&
+
+                        allProducts.map(item => {
+                            //console.log(item, "inside");
+                            return (
+                                <ProductCard item={item} key={item.id} />
                             )
                         })
                     }
